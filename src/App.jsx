@@ -6,6 +6,8 @@ import AvailablePlayers from './Components/AvailablePlayers/AvailablePlayers'
 import SelectedPlayers from './Components/SelectedPlayers/SelectedPlayers'
 import { Suspense } from 'react'
 import { useState } from 'react'
+  import { ToastContainer } from 'react-toastify';
+    import 'react-toastify/dist/ReactToastify.css';
 
 const fetchPlayers=async()=>{
     const res=await fetch('/players.json');
@@ -59,7 +61,7 @@ function App() {
       </Suspense>:<SelectedPlayers removePlayer={removePlayer} purchasePlayers={purchasePlayers}></SelectedPlayers>
       }
       
-      
+      <ToastContainer />
       
     </div>
   )

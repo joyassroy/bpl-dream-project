@@ -2,6 +2,7 @@ import React from 'react';
 
 import useImg from '../../assets/user-1.png'
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 const PlayerCard = ({player,setAvailableBalance,availableBalance,listPlayer}) => {
     const [isSelected,setSelected]= useState(false);
     return (
@@ -33,6 +34,9 @@ const PlayerCard = ({player,setAvailableBalance,availableBalance,listPlayer}) =>
                                 <div className="card-actions  mt-3 justify-between items-center">
                                     <span className='font-bold'>Price: ${player.playerPrice}</span>
                                     <button disabled={isSelected} onClick={()=>{
+                                        if(availableBalance<player.playerPrice){toast("Haha u don't have enough coin");return;}
+                                            
+                                    
                                         setSelected(!isSelected);
                                         setAvailableBalance(availableBalance-player.playerPrice);
                                         listPlayer(player);

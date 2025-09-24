@@ -1,0 +1,98 @@
+[
+  {
+    "playerImage": "https://i.ibb.co.com/ccxxjwz9/Shakib-Al-Hasan-1-1.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerRole": "All-rounder",
+    "playerPrice": 8500000,
+    "rating": 9.5
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/LzSBpWRJ/tamim-iqbal.jpg",
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Batsman",
+    "playerPrice": 7000000,
+    "rating": 8.7
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Andre_Russell_Cricket_World_Cup_2019.jpg/440px-Andre_Russell_Cricket_World_Cup_2019.jpg",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerRole": "All-rounder",
+    "playerPrice": 9000000,
+    "rating": 9.2
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Mohammad_Rizwan_in_2023.jpg/440px-Mohammad_Rizwan_in_2023.jpg",
+    "playerName": "Mohammad Rizwan",
+    "playerCountry": "Pakistan",
+    "playerRole": "Wicketkeeper-Batsman",
+    "playerPrice": 8500000,
+    "rating": 9.3
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Litton_Das_in_2023.jpg/440px-Litton_Das_in_2023.jpg",
+    "playerName": "Litton Das",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Wicketkeeper-Batsman",
+    "playerPrice": 6500000,
+    "rating": 8.5
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Taskin_Ahmed_in_2023.jpg/440px-Taskin_Ahmed_in_2023.jpg",
+    "playerName": "Taskin Ahmed",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Bowler",
+    "playerPrice": 6000000,
+    "rating": 8.4
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Moeen_Ali_2017.jpg/440px-Moeen_Ali_2017.jpg",
+    "playerName": "Moeen Ali",
+    "playerCountry": "England",
+    "playerRole": "All-rounder",
+    "playerPrice": 7500000,
+    "rating": 8.8
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mustafizur_Rahman_on_2018.jpg/440px-Mustafizur_Rahman_on_2018.jpg",
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Bowler",
+    "playerPrice": 8000000,
+    "rating": 8.9
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Mushfiqur_Rahim_in_BCB_Corporate_League_2020.jpg/440px-Mushfiqur_Rahim_in_BCB_Corporate_League_2020.jpg",
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Wicketkeeper-Batsman",
+    "playerPrice": 7500000,
+    "rating": 8.8
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sunil_Narine_in_July_2017.jpg/440px-Sunil_Narine_in_July_2017.jpg",
+    "playerName": "Sunil Narine",
+    "playerCountry": "West Indies",
+    "playerRole": "All-rounder",
+    "playerPrice": 8200000,
+    "rating": 9.0
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Faf_du_Plessis_batting_for_SA_in_2015.jpg/440px-Faf_du_Plessis_batting_for_SA_in_2015.jpg",
+    "playerName": "Faf du Plessis",
+    "playerCountry": "South Africa",
+    "playerRole": "Batsman",
+    "playerPrice": 8800000,
+    "rating": 9.1
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mahmudullah_Riyad_in_BCB_Corporate_League_2020.jpg/440px-Mahmudullah_Riyad_in_BCB_Corporate_League_2020.jpg",
+    "playerName": "Mahmudullah Riyad",
+    "playerCountry": "Bangladesh",
+    "playerRole": "All-rounder",
+    "playerPrice": 5000000,
+    "rating": 8.2
+  }
+]

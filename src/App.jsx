@@ -22,8 +22,10 @@ function App() {
   const [purchasePlayers,setPurchasePlayers]=useState([]);
 
   const listPlayer=(prop)=>{
+    
     const newAr=[...purchasePlayers,prop];
     setPurchasePlayers(newAr);
+
     
   }
   const removePlayer=(prop)=>{
@@ -57,7 +59,7 @@ function App() {
       </div>
       {
         toggle===true?<Suspense fallback={<span class="loading loading-infinity loading-xl"></span>}>
-        <AvailablePlayers listPlayer={listPlayer} availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playerPromise={playerPromise}></AvailablePlayers>
+        <AvailablePlayers listPlayer={listPlayer} availableBalance={availableBalance} purchasePlayers={purchasePlayers} setAvailableBalance={setAvailableBalance} playerPromise={playerPromise}></AvailablePlayers>
       </Suspense>:<SelectedPlayers removePlayer={removePlayer} purchasePlayers={purchasePlayers}></SelectedPlayers>
       }
       
